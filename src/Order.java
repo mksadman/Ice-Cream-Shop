@@ -1,3 +1,4 @@
+import java.security.PublicKey;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -52,5 +53,9 @@ public class Order {
 
     public boolean isWaffleCone() {
         return isWaffleCone;
+    }
+
+    public static double getWaffleConePrice() {
+        return WAFFLE_CONE_PRICE;
     }
 }
